@@ -9,7 +9,7 @@ import {
   NbInputModule,
   NbRadioModule,
   NbSelectModule,
-  NbUserModule,
+  NbUserModule
 } from '@nebular/theme';
 import { ThemeModule } from '../../@theme/theme.module';
 import { CreateProfileComponent } from './create-profile/create-profile.component';
@@ -29,11 +29,11 @@ import { ProfileComponent } from './profile.component';
   NbSelectModule,
   NbUserModule,
   ThemeModule,
-  ProfileRoutingModule
+  ProfileRoutingModule,
   ],
   declarations: [
    ProfileComponent,
-   CreateProfileComponent
+   CreateProfileComponent,
   ],
 
 })
