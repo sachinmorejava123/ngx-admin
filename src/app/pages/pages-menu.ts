@@ -244,4 +244,22 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+
+  {
+    title: 'Profile',
+    icon: 'text-outline',
+    children: [
+      {
+        title: 'Create Profile',
+        link: '/pages/profile/createProfile',
+      },
+      {
+        title: 'View Profile',
+        link: '/pages/editors/ckeditor',
+      },
+    ],
+  },
+
+
+
 ];

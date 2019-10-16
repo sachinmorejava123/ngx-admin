@@ -29,6 +29,11 @@ const routes: Routes = [{
         .then(m => m.FormsModule),
     },
     {
+      path: 'profile',
+      loadChildren: () => import('./profile/profile.module')
+        .then(m => m.ProfileModule),
+    },
+    {
       path: 'ui-features',
       loadChildren: () => import('./ui-features/ui-features.module')
         .then(m => m.UiFeaturesModule),
